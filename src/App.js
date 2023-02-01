@@ -62,8 +62,7 @@ function App() {
       setBooks(newState);
     })
 
-  }, []);
-
+  }, []); 
   return (
     <div className="">
       <form action="submit">
