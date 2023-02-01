@@ -62,8 +62,7 @@ function App() {
       setBooks(newState);
     })
 
-  }, []);
-   const unUsedVariable = 10; 
+  }, []); 
   return (
     <div className="">
       <form action="submit">
